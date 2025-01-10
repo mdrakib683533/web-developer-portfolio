@@ -8,36 +8,41 @@
 
 
 /* header styles */
-header{
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    color: 0% #070211 100% #070211;
-    background: url("../images/Banner\ Image.png");
+.bd{
+    background: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
-}
-
-.bd {
-    width: 1320px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    max-width: 1320px;
+    height: 600px;
+    background-position: center;
     margin: 0 auto;
     margin-top: 150px;
-
+    color: 0% #070211 100% #070211;
+    
 }
+
+
 
 .banner-title{
     font-size: 32px;
     font-weight: 400px;
     color: white;
-    line-height: 50px;
+    /* line-height: 50px; */
+    margin-top: 177px;
 }
 .banner-subtitle{
     height: 190px;
     width: 632px;
     font-size: 72px;
     color: white;
+    margin-top: 16px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 
@@ -45,8 +50,6 @@ header{
 /* offer styles */
 .offer-box{
     text-align: center;
-    /* max-width:806px;
-    max-height:809px; */
     margin-top: 120px;
 }
 .less{
