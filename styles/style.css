@@ -1,0 +1,69 @@
+
+
+.work-sans-normal{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* header styles */
+header{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    color: 0% #070211 100% #070211;
+    background: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+}
+
+.bd {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.banner-title{
+    font-size: 32px;
+    font-weight: 400px;
+    color: white;
+    line-height: 50px;
+}
+.banner-subtitle{
+    height: 190px;
+    width: 632px;
+    font-size: 72px;
+    color: white;
+}
+
+
+
+/* offer styles */
+.offer-box{
+    text-align: center;
+    /* max-width:806px;
+    max-height:809px; */
+    margin-top: 120px;
+}
+.less{
+    font-size: 88px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+    margin-bottom: 48px;
+}
+.holiday{
+    font-size: 24px;
+    font-weight: 500px;
+    color: rgba(255, 0, 0, 1);
+    margin-bottom: 16px;
+}
+.categoris{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(7, 2, 17, 1);
+    margin-top: 16px;
+}
